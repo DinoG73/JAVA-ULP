@@ -53,6 +53,8 @@ public class Triangulo {
 			System.out.println("El triangulo es equilatero");
 		}else if(lado1 == lado2 || lado2 == lado3 || lado3 == lado1) {
 			System.out.println("El triangulo es isoceles");
+		}else if(lado1 + lado2 < lado3){
+			System.out.println("No es un triangulo");
 		}else {
 			System.out.println("El triangulo es escaleno");
 		}

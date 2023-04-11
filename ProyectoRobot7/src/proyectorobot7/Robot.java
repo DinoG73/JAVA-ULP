@@ -1,11 +1,10 @@
 package proyectorobot7;
 
 public class Robot {
-	private final int bateria = 500;
+	private int bateria = 500;
 	private String name;
 	
 	public Robot(String name) {
-		super();
 		this.name = name;
 	}
 
@@ -18,7 +17,10 @@ public class Robot {
 	}
 	
 	public void avanzar(int pasos) {
-		
+		int consumo;
+		consumo = pasos / 10;
+		this.bateria -= consumo;
+		System.out.println(this.bateria);
 	}
 	
 	public boolean bateriaVacia() {

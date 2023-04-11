@@ -6,9 +6,9 @@ public class Main {
 		
 		Utilitario.dibujaCuadrado(4);
 		
-		Utilitario.elMayorEs(3, 3, 3);
+		Utilitario.elMayorEs(20, 75, 40);
 		
-		Utilitario.elDiaEs(8);
+		Utilitario.elDiaEs(5);
 	}
 
 }

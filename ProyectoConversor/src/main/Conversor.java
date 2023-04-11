@@ -1,7 +1,7 @@
 package main;
 
 public class Conversor {
-    private static final double CAMBIO_DOLAR_PESO = 98.5;
+   private static final double CAMBIO_DOLAR_PESO = 98.5;
 
     public static double convertirAPesos(double dolares) {
         return dolares * CAMBIO_DOLAR_PESO;
